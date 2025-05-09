@@ -1,0 +1,11 @@
+﻿@page "/details/{Id:int}"
+
+@using RPS.Web.Server.Models;
+@using RPS.Web.Server.Components.Backlog;
+
+<div class="pt-3 pb-2 mb-3">
+    <h1 class="h2" id="itemTitle">@Item.Title</h1>
+</div>
+
+<DetailsForm Item="Item" />
+
